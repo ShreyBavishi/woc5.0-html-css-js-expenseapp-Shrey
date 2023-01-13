@@ -1,0 +1,63 @@
+body{
+    margin:0;
+    background:rgb(26, 25, 25);
+    font-family: 'Abril Fatface', cursive;
+}
+.title{
+    margin:0;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient( to right,rgba(100, 152, 231, 0.836),rgba(35, 209, 194, 0.962)) ;
+    color: black;
+}
+.New-Expense{
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgba(35, 209, 194, 0.962);
+    color: white;
+    
+    padding:10px;
+    font-weight: light;
+    font-size:small;
+    margin: 50px;
+    border-radius: 40px;
+
+}
+.expense-list:hover{
+    font-size: medium;
+}
+
+.Add{
+    font-size: 40px;
+    border:none;
+    background-color: rgb(26, 25, 25);
+    
+   margin-top: 100% ;
+   margin-left:85%
+}
+
+.btn{
+    font-family: inherit;
+    margin-top:10px;
+    color:white;
+    border: 1px solid white;
+    border-radius:5px;
+    background-color: rgb(26, 25, 25) ;
+
+}
+.btn:hover{
+    background-color: white;
+    color:rgb(26, 25, 25);
+}
+.deleticon{
+    background:  rgb(255, 250, 250);
+    border-radius:30%;
+    height:20px;
+    border: none;
+    margin-left: 90%;
+    margin-bottom:5%;
+}
+.deleticon:hover{
+    background-color: rgb(173, 3, 3)
+    ;
+}
